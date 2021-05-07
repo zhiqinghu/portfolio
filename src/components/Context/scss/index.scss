@@ -29,6 +29,7 @@
     }
     @media (max-width: 770px) {
       grid-template-columns: 1fr;
+      max-height: 40vh;
     }
   }
 }
