@@ -7,20 +7,20 @@ export interface Context1Props {}
 
 const Context1: React.FC<Context1Props> = () => {
   const srcs = [
-    "/assets/project1/1.jpg",
-    "/assets/project1/2.jpg",
-    "/assets/project1/3.jpg",
-    "/assets/project1/4.JPG",
-    "/assets/project1/5.JPG",
-    "/assets/project1/6.JPG",
-    "/assets/project1/7.JPG",
-    "/assets/project1/8.JPG",
-    "/assets/project1/cover.jpg",
-    "/assets/project1/10.JPG",
-    "/assets/project1/11.jpg",
-    "/assets/project1/12.jpg",
-    "/assets/project1/13.jpg",
-    "/assets/project1/14.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/1.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/2.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/3.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/4.JPG",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/5.JPG",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/6.JPG",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/7.JPG",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/8.JPG",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/cover.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/10.JPG",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/11.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/12.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/13.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project1/14.jpg",
   ];
   const title = "Continuous Space";
   const content =
