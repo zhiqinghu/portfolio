@@ -6,10 +6,10 @@ export interface Context2Props {}
 
 const Context2: React.FC<Context2Props> = () => {
   const srcs = [
-    "./assets/project2/1.jpg",
-    "./assets/project2/2.jpg",
-    "./assets/project2/3.jpg",
-    "./assets/project2/cover.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/1.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/2.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/3.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/cover.jpg?raw=true",
   ];
   const title = "Culture and  Community-El Ruedo";
   const content =

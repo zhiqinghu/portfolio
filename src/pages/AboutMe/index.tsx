@@ -1,4 +1,7 @@
 import React from "react";
+import { Img } from "react-image";
+import Loader from "../../components/Loader";
+import Unloader from "../../components/Unloader";
 import "./scss/index.scss";
 
 export interface AboutMeProps {}
@@ -7,7 +10,12 @@ const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <div className="about_me">
       <div className="photo_container">
-        <img src="/assets/me.jpg" alt="me" />
+        <Img
+          src="https://github.com/zhiqinghu/portfolio/blob/master/public/assets/me.jpg?raw=true"
+          alt="me"
+          loader={<Loader />}
+          unloader={<Unloader />}
+        />
       </div>
 
       <p>

@@ -6,4 +6,7 @@
   text-align: center;
   text-transform: none;
   color: black;
+  @media (max-width: 770px) {
+    margin: 24px auto;
+  }
 }

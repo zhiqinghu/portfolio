@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ContextImage from "../ContextImage";
 import "./scss/index.scss";
 
@@ -15,7 +15,11 @@ const Context: React.FC<ContextProps> = ({ srcs, title, content }) => {
       <p>{content}</p>
       <div className="context_container">
         {srcs.map((src) => {
-          return <ContextImage src={src} />;
+          return (
+            <Suspense fallback={"IMG IS LOADING"}>
+              <ContextImage imgSrc={src} />
+            </Suspense>
+          );
         })}
       </div>
     </div>

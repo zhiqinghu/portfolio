@@ -6,16 +6,16 @@ export interface Context3Props {}
 
 const Context3: React.FC<Context3Props> = () => {
   const srcs = [
-    "./assets/project3/1.jpg",
-    "./assets/project3/2.jpg",
-    "./assets/project3/3.jpg",
-    "./assets/project3/cover.jpg",
-    "./assets/project3/5.jpg",
-    "./assets/project3/6.jpg",
-    "./assets/project3/7.jpg",
-    "./assets/project3/8.jpg",
-    "./assets/project3/9.jpg",
-    "./assets/project3/10.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/1.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/2.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/3.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/cover.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/5.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/6.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/7.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/8.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/9.jpg?raw=true",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project3/10.jpg?raw=true",
   ];
   const title = "Why In Person";
   const content =

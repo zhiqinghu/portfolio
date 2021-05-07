@@ -1,13 +1,16 @@
 import React from "react";
-import { Img } from "react-image";
-import Loader from "../Loader";
+import { useImage } from "react-image";
 
 export interface ContextImageProps {
-  src: string;
+  imgSrc: string;
 }
 
-const ContextImage: React.FC<ContextImageProps> = ({ src }) => (
-  <Img src={src} loader={<Loader />} />
-);
+const ContextImage: React.FC<ContextImageProps> = ({ imgSrc }) => {
+  const { src } = useImage({
+    srcList: imgSrc,
+  });
+
+  return <img src={src} alt="img" />;
+};
 
 export default ContextImage;
