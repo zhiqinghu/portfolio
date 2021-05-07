@@ -1,6 +1,6 @@
 import React from "react";
 import Media from "react-media";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Anchor from "./components/Anchor";
 import Footer from "./components/Footer";
@@ -20,6 +20,7 @@ function App() {
         <Navbar />
 
         <Switch>
+          <Redirect exact from="/portfolio" to="/" />
           <Route
             render={(routeProps) => <AboutMe {...routeProps} />}
             exact
