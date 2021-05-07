@@ -6,10 +6,38 @@ export interface Context2Props {}
 
 const Context2: React.FC<Context2Props> = () => {
   const srcs = [
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/1.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/2.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/3.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/cover.jpg?raw=true",
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/1.jpg?raw=true",
+      hasContent_left: true,
+      hasContent_right: false,
+      key: 1,
+      title: "Class: ARC 367 Instructer: Mason White",
+      instructor: " Collabration with: Tamara Cruz, Rawish Talpur",
+      content:
+        "The project exploring the connection between the community and architecture landscape design of El Ruedo. With plan, section and isometric drawing, the project demonstarted the community and architecture.",
+    },
+
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/2.jpg?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 2,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project2/3.jpg?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 3,
+      title: "",
+      instructor: "",
+      content: "",
+    },
   ];
   const title = "Culture and  Community-El Ruedo";
   const content =

@@ -6,14 +6,86 @@ export interface Context4Props {}
 
 const Context4: React.FC<Context4Props> = () => {
   const srcs = [
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/1.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/cover.png?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/3.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/4.png?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/5.png?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/6.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/7.jpg?raw=true",
-    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/8.png?raw=true",
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/1.jpg?raw=true",
+      hasContent_left: true,
+      hasContent_right: false,
+      key: 1,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/cover.png?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 2,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/3.jpg?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 3,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/4.png?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 4,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/5.png?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 5,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/6.jpg?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 6,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/7.jpg?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 7,
+      title: "",
+      instructor: "",
+      content: "",
+    },
+    {
+      url:
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/8.png?raw=true",
+      hasContent_left: false,
+      hasContent_right: false,
+      key: 8,
+      title: "",
+      instructor: "",
+      content: "",
+    },
   ];
   const title = "Office Space";
   const content =

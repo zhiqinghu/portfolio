@@ -13,23 +13,65 @@
     @media (max-width: 770px) {
       font-size: small;
       font-weight: 300;
+      margin: 10px 13vw;
     }
   }
 
   .context_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 5vh;
-    column-gap: 2vw;
-    max-width: 60%;
+    max-width: 75%;
     margin: 5% auto 5% auto;
+    justify-items: center;
+    align-items: center;
     img {
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 90%;
+      grid-column: 1/ 3;
     }
+
+    .content_container {
+      grid-column: 1/ 3;
+      .content_title {
+        display: block;
+        text-align: left;
+        padding: 5px;
+        color: black;
+        font-weight: 600;
+        font-size: medium;
+      }
+      .content_instructor {
+        display: block;
+        text-align: left;
+        padding: 5px;
+        color: black;
+        font-weight: 500;
+      }
+      .content_content {
+        display: block;
+        text-align: left;
+        padding: 3px;
+        color: #231313;
+        font-weight: 400;
+      }
+    }
+    .content-half_left {
+      grid-column: 1/ 2;
+      margin: 36px auto;
+      img {
+        grid-column: 1/ 2;
+      }
+    }
+
     @media (max-width: 770px) {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(auto-fill, 200px);
+      span {
+        font-size: small;
+      }
+      .content_half_left {
+        margin: 0 auto;
+        grid-column: 1/ 3;
+      }
+      row-gap: 10px;
       img {
         width: 100%;
         height: 100%;
