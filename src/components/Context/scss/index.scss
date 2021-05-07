@@ -18,7 +18,7 @@
 
   .context_container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 5vh;
     column-gap: 2vw;
     max-width: 60%;
@@ -26,6 +26,9 @@
     img {
       width: 100%;
       height: 100%;
+    }
+    @media (max-width: 770px) {
+      grid-template-columns: 1fr;
     }
   }
 }
