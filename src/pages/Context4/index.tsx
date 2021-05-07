@@ -6,14 +6,14 @@ export interface Context4Props {}
 
 const Context4: React.FC<Context4Props> = () => {
   const srcs = [
-    "/assets/project4/1.jpg",
-    "/assets/project4/cover.png",
-    "/assets/project4/3.jpg",
-    "/assets/project4/4.png",
-    "/assets/project4/5.png",
-    "/assets/project4/6.jpg",
-    "/assets/project4/7.jpg",
-    "/assets/project4/8.png",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/1.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/cover.png",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/3.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/4.png",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/5.png",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/6.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/7.jpg",
+    "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/8.png",
   ];
   const title = "Office Space";
   const content =
