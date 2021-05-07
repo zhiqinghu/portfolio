@@ -11,7 +11,7 @@ const NavContainer: React.FC<NavContainerProps> = () => {
         <Link to="/">Portfolio</Link>
       </div>
       <div className="page-title">
-        <Link to="/about">about me</Link>
+        <Link to="/about_me">about me</Link>
       </div>
     </nav>
   );

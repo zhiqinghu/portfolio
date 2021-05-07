@@ -25,7 +25,7 @@ const Hamburger: React.FC<HamburgerProps> = () => {
           <Link to="/">
             <li>Portfolio</li>
           </Link>
-          <Link to="/about">
+          <Link to="/about_me">
             <li>About me</li>
           </Link>
         </ul>

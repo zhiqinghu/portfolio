@@ -1,6 +1,6 @@
 import React from "react";
 import Media from "react-media";
-import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Anchor from "./components/Anchor";
 import Footer from "./components/Footer";
@@ -16,20 +16,19 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/portfolio">
         <Navbar />
 
         <Switch>
-          <Redirect exact from="/portfolio" to="/" />
-          <Route
-            render={(routeProps) => <AboutMe {...routeProps} />}
-            exact
-            path="/about"
-          ></Route>
           <Route
             render={(routeProps) => <Portfolio {...routeProps} />}
             exact
             path="/"
+          ></Route>
+          <Route
+            render={(routeProps) => <AboutMe {...routeProps} />}
+            exact
+            path="/about_me"
           ></Route>
           <Route
             render={(routeProps) => <Context1 {...routeProps} />}
@@ -51,10 +50,9 @@ function App() {
             exact
             path="/office-space"
           ></Route>
-
           <Route render={(routeProps) => <NotFound {...routeProps} />}></Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
 
       <Footer />
       <Media query="(min-width:770px)" render={() => <Anchor />} />
