@@ -1,0 +1,23 @@
+.nav-container {
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+  margin: 0 36px;
+  .page-title {
+    margin: 0 8px;
+    text-transform: uppercase;
+    & a {
+      text-decoration: none;
+      font-size: medium;
+      font-weight: bold;
+      color: #cdcdcd;
+      transition: color 0.4s ease;
+      &:hover {
+        cursor: pointer;
+        color: #000;
+      }
+    }
+  }
+}

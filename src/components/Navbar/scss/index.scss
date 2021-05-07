@@ -1,0 +1,19 @@
+.nav-header {
+  display: flex;
+  justify-content: flex-start;
+  .name {
+    margin-left: 30%;
+    @media (max-width: 770px) {
+      margin-left: 20%;
+    }
+    a {
+      text-decoration: none;
+      color: #cdcdcd;
+      transition: color 0.4s ease;
+      &:hover {
+        color: rgb(63, 63, 63);
+        cursor: pointer;
+      }
+    }
+  }
+}
