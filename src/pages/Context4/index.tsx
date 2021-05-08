@@ -8,7 +8,7 @@ const Context4: React.FC<Context4Props> = () => {
   const srcs = [
     {
       url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/1.jpg?raw=true",
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/1.png?raw=true",
       hasContent_left: true,
       hasContent_right: false,
       key: 1,
@@ -20,7 +20,7 @@ const Context4: React.FC<Context4Props> = () => {
     },
     {
       url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/cover.png?raw=true",
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/2.jpg?raw=true",
       hasContent_left: false,
       hasContent_right: false,
       key: 2,
@@ -32,7 +32,7 @@ const Context4: React.FC<Context4Props> = () => {
       url:
         "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/3.jpg?raw=true",
       hasContent_left: true,
-      hasContent_right: true,
+      hasContent_right: false,
       key: 3,
       title: "Site contexts and Rendering",
       instructor: "",
@@ -42,7 +42,7 @@ const Context4: React.FC<Context4Props> = () => {
     },
     {
       url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/4.png?raw=true",
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/4.jpg?raw=true",
       hasContent_left: false,
       hasContent_right: true,
       key: 4,
@@ -52,40 +52,10 @@ const Context4: React.FC<Context4Props> = () => {
     },
     {
       url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/5.png?raw=true",
+        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/5.jpg?raw=true",
       hasContent_left: false,
       hasContent_right: true,
       key: 5,
-      title: "",
-      instructor: "",
-      content: "",
-    },
-    {
-      url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/6.jpg?raw=true",
-      hasContent_left: false,
-      hasContent_right: true,
-      key: 6,
-      title: "",
-      instructor: "",
-      content: "",
-    },
-    {
-      url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/7.jpg?raw=true",
-      hasContent_left: false,
-      hasContent_right: true,
-      key: 7,
-      title: "",
-      instructor: "",
-      content: "",
-    },
-    {
-      url:
-        "https://github.com/zhiqinghu/portfolio/blob/master/public/assets/project4/8.png?raw=true",
-      hasContent_left: false,
-      hasContent_right: true,
-      key: 8,
       title: "",
       instructor: "",
       content: "",
