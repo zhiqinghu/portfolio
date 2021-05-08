@@ -12,7 +12,7 @@ const Context2: React.FC<Context2Props> = () => {
       hasContent_left: true,
       hasContent_right: false,
       key: 1,
-      title: "Class: ARC 367 Instructer: Mason White",
+      title: "Class: ARC 367 instructor: Mason White",
       instructor: " Collabration with: Tamara Cruz, Rawish Talpur",
       content:
         "The project exploring the connection between the community and architecture landscape design of El Ruedo. With plan, section and isometric drawing, the project demonstarted the community and architecture.",
@@ -41,7 +41,9 @@ const Context2: React.FC<Context2Props> = () => {
   ];
   const title = "Culture and  Community-El Ruedo";
   const content =
-    "The project exploring the culture and community of El Ruedo as a residental architecture and landscape. It exploring the activity and community of the space with the site context. It is being worked as group project studying and exploring the space with isometric, plan and section drawings.This project had been seeking for the relation between vertical plan, horizontal plan and spaces through the exploration of three parts. Continuous space is a theme in the pursuing of the connection and conceptual ideas of the space. Overall, it is seeking the beauty of archicture, space and lights and powerfulness of the traditional way in demonstar tion of spaces.";
+    "The project exploring the culture and community of El Ruedo as a residental architecture and landscape." +
+    " It exploring the activity and community of the space with the site context." +
+    " It is being worked as group project studying and exploring the space with isometric, plan and section drawings.";
   return <Context srcs={srcs} content={content} title={title} />;
 };
 

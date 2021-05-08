@@ -13,7 +13,7 @@ const Context1: React.FC<Context1Props> = () => {
       hasContent_right: false,
       key: 1,
       title: "Design in Vertical Plan ",
-      instructor: "Class: ARC 201 Instructor: Brian O’Brian",
+      instructor: "Class: ARC 201 Instructor: Brian O'Brian",
       content:
         "The project is exploring the relation between the plan and design elements using only vertical elements." +
         " The project is designed in the space of 16m X 16m with the height of 12m with to create at least 7 spaces." +
@@ -38,7 +38,7 @@ const Context1: React.FC<Context1Props> = () => {
       hasContent_right: false,
       key: 3,
       title: "Design in Horizontal Plan",
-      instructor: "Class: ARC 201 Instructor: Brian O’Brian",
+      instructor: "Class: ARC 201 Instructor: Brian O'Brian",
       content:
         "The project contents the idea of the continuous through the continuity of the space, walkway and continity of the plan as relating to vertical space." +
         " The idea of the continuous is archieved through the use of ramp and stairs in the project." +
@@ -108,7 +108,7 @@ const Context1: React.FC<Context1Props> = () => {
       hasContent_right: false,
       key: 9,
       title: "Design in Volumn",
-      instructor: "Class: ARC 201 Instructor: Brian O’Brian",
+      instructor: "Class: ARC 201 Instructor: Brian O'Brian",
       content:
         "The thrid project of the course is exploring the design of the site which is surround by worthwood college, innis college and varsity center to combining the idea of horizontal and vertical plan to exploring the idea of voulumn." +
         " However, through the analysis of site, there has been an interesting relations appeared between the site and the varsity center." +
